@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+*  {
+margin: 0;
+padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	line-height: 1.4;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+/* styles for header for all web pages*/
+header  {
+	height: 125px;
+	background-color: #1f609c;
+	border-bottom: 5px solid #64da20;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+header h1  {
+	font-size: 300%;
+	color: #ffffff;
+	font-style: normal;
+	padding-left: 150px;
+}
+
+/* style for content for all web pages */
+.page_content  {
+	padding-left: 75px;
+	padding-right: 75px;
+	max-width: 100%;
+}
+
+h1, h2  {
+	padding-top: 25px;
+	padding-right: 150px;
+	padding-left: 150px;
+}
+
+h1  {
+	text-align: center;
+	padding: 25px;
+	font-size: 250%;
+}
+
+h2  {
+	padding: 20px;
+    text-align: center;
+	font-size: 175%;
+}
+
+p  {
+		padding-left: 50px;
+    font-size: 100%;
+}
+
+/* styles for footer for all pages */
+footer {
+	clear: both;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	color: #FBEEFF;
+	background-color:	#cea624;
+	text-align: center;
+    border-top: 10px solid #810f0b;
+		border-bottom: 10px solid #810f0b
+}
+
+/* styles for contact form web page */
+#formBox {
+	margin-left:auto;
+	margin-right:auto;
+	width: 500px;
+	background-color:#622da8;
+	color:#FFFFFF;
+	border: 3px solid #000000;
+}
+
+#formBox label {
+	display: block;
+	width: 100%;
+	float: left;
+	text-align: left;
+	padding-top: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+}
+
+#formBox p  {
+	margin-left: 75px;
+	padding-left: 50px;
+}
+
+#formBox input, textarea  {
+	width: 50%;
+}
+
+#formBox .submit {
+	width: 35%;
+	margin-top: 3%;
+	margin-left: 10%;
+	margin-bottom: 10%;
+}
